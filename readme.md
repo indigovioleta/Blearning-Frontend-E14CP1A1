@@ -12,21 +12,22 @@ Para realizar estos ejercicios escribir dentro de un archivo .md
 
 	~~~js
 	var calcularIMC = function(peso, estatura){
-		return peso / (estatura * estatura);
-	}
+			return peso / (estatura * estatura);
+		};
 
-	var interpretarIMC = function(peso, estatura){
-		var imc = calcularIMC(peso, estatura);
-		if (imc > 24){
-			return "sobrepeso";
-		} else if (imc > 19) {
-			return "ok";
-		} else {
-			return "bajo peso";
-		}
-	}
+		var interpretarIMC = function(peso, estatura){
+			var imc = calcularIMC(peso, estatura);
+			if (imc > 24){
+				return "sobrepeso";
+			} else if (imc > 19) {
+				return "ok";
+			} else {
+				return "bajo peso";
+			}
 
-	resultado = InterpretarIMC(95);
+		};
+
+	resultado = interpretarIMC(95, 1.60);
 	console.log(resultado);
 	~~~
 
