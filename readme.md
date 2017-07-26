@@ -27,7 +27,7 @@ Para realizar estos ejercicios escribir dentro de un archivo .md
 
 		};
 
-	resultado = interpretarIMC(95, 1.60);
+	resultado = interpretarIMC(95, 1.60);// nombre función invocada mal escrito y faltaba agregar el parámetro de "estatura" (en metros)
 	console.log(resultado);
 	~~~
 
