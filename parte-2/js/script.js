@@ -7,7 +7,7 @@ $('label[name="first_name_label"]').text("Tu nombre:");
 // 4. Obtén el valor del atributo 'name' del campo Favorite Day of The Week
 $('select').attr('name');
 // 5. Escoge la opción Female de la pregunta de género.
-$('input:radio[value="female"]').attr('checked', true);
+$('input:radio[name="sex"]').last().prop('checked', true);
 // 6. Encuentra la primera form del documento y pon el atributo name = personal_info
 $('form').first().attr('name','personal_info');
 // 7. Encuentra la primera form del documento y pon el atributo name = job_info
